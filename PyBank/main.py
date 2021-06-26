@@ -48,7 +48,7 @@ print(f'Average Change: ${round(averageChange, 2)}')
 print(f'Greatest Increase in Profits: {maxProfitMonth} (${maxProfit})')
 print(f'Greatest Decrease in Profits: {maxLossMonth} (${maxLoss})')
 
-output_path = 'output.txt'
+output_path = 'Analysis/output.txt'
 
 with open(output_path, 'w') as textfile:
 

@@ -52,15 +52,15 @@ print(f'-------------------------')
 print(f'Total Votes: {sumVotes}')
 print(f'-------------------------')
 print(f'Khan: {round(khanPercent, 3)}% ({khanVotes})')
-print(f'Khan: {round(correyPercent, 3)}% ({correyVotes})')
-print(f'Khan: {round(liPercent, 3)}% ({liVotes})')
-print(f'Khan: {round(tooleyPercent, 3)}% ({tooleyVotes})')
+print(f'Correy: {round(correyPercent, 3)}% ({correyVotes})')
+print(f'Li: {round(liPercent, 3)}% ({liVotes})')
+print(f"O'Tooley: {round(tooleyPercent, 3)}% ({tooleyVotes})")
 print(f'-------------------------')
 print(f'Winner: {winner}')
 print(f'-------------------------')
 
 
-output_path = 'output.txt'
+output_path = 'Analysis/output.txt'
 
 with open(output_path, 'w') as textfile:
 
@@ -69,9 +69,9 @@ with open(output_path, 'w') as textfile:
     textfile.write(f'Total Votes: {sumVotes}\n')
     textfile.write(f'-------------------------\n')
     textfile.write(f'Khan: {round(khanPercent, 3)}% ({khanVotes})\n')
-    textfile.write(f'Khan: {round(correyPercent, 3)}% ({correyVotes})\n')
-    textfile.write(f'Khan: {round(liPercent, 3)}% ({liVotes})\n')
-    textfile.write(f'Khan: {round(tooleyPercent, 3)}% ({tooleyVotes})\n')
+    textfile.write(f'Correy: {round(correyPercent, 3)}% ({correyVotes})\n')
+    textfile.write(f'Li: {round(liPercent, 3)}% ({liVotes})\n')
+    textfile.write(f"O'Tooley: {round(tooleyPercent, 3)}% ({tooleyVotes})\n")
     textfile.write(f'-------------------------\n')
     textfile.write(f'Winner: {winner}\n')
     textfile.write(f'-------------------------\n')
